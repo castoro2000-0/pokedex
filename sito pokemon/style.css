@@ -1,0 +1,44 @@
+body {
+    background: url(immagini/pokemon-1624022_1920.jpg);
+    color: black;
+}
+
+#divPrincipale {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputPokemon {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#inputPokemon input {
+    width: 35vw;
+    height: 3vh;
+    border-radius: 25px;
+    padding-left: 3%;
+    background-color: black;
+    font-size: 1vw;
+    border: solid white 3px;
+    color: white;
+}
+
+#inputPokemon button {
+    height: 3vh;
+    border-radius: 13px;
+    margin-left: 0.5%;
+    background-color: black;
+    font-size: 0.8vw;
+    border: solid white 3px;
+    color: white;
+}
+
+#pokemon {
+    width: 10vw;
+    margin: 125% 0 0 -20%;
+}
